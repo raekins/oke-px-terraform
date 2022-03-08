@@ -1,4 +1,4 @@
-# oke-px-terraform
+# OKE Portworx Terraform
 Automated Oracle Kubernetes Engine (OKE) with Portworx deployment using Terraform
 
 ## Getting Started
@@ -24,5 +24,8 @@ Oracle ACE Director
 
 ## Link(s)
 
+Oracle Kubernetes Engine (https://www.oracle.com/uk/cloud-native/container-engine-kubernetes/)
+Portworx (https://portworx.com)
+Terraform (https://www.terraform.io) 
 Fully automated OKE deployment with Portworx  using Terraform
 - (https://ronekins.com/2022/)
