@@ -25,7 +25,7 @@ variable "ssh_public_key" {
 variable "kubernetes_version" {
   description = "OKE Kubernetes version"
   type        = string
-  default     = "v1.21.5"
+  default     = "v1.20.11"
 }
 
 variable "node_pool_size" {
