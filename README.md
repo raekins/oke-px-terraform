@@ -6,7 +6,7 @@ Automated Oracle Kubernetes Engine (OKE) with Portworx deployment using Terrafor
 1. Pull this GitRepo
 2. Copy terraform.tfvars.example to terraform.tfvars
 3. Update terraform.tfvars, providing:
-- OCI tennancy details, compartment, compute instance
+- OCI account, tennancy, compartment, and compute instance details
 - OKE cluster details
 - Portworx details
 4. terraform init
