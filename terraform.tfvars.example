@@ -17,3 +17,8 @@ source_ocid         = ""
 cluster_name        = ""
 pool_name           = ""
 kubernetes_version  = ""
+VCN-name            = ""
+
+# Portworx
+px_oper_url         = ""
+px_spec_url         = ""
