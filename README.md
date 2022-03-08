@@ -3,8 +3,12 @@ Automated Oracle Kubernetes Engine (OKE) with Portworx deployment using Terrafor
 
 ## Getting Started
 
-1. Create a Kubernetes Cluster using preffered distribution
-
+1. Pull Repo
+2. Copy terraform.tfvars.example to terraform.tfvars
+3. Update terraform.tfvars, providing:
+- OCI tennancy details, compartment, compute instance
+- OKE cluster details
+- Portworx details 
 
 ## Authors
 
