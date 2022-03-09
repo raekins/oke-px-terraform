@@ -3,7 +3,7 @@ Automated Oracle Cloud Infrastructure (OCI) Oracle Kubernetes Engine (OKE) with 
 
 ## Getting Started
 
-The Terraform script creates a Kubernetes congiguration file in `.kube/config` (see kubeconfig.tf)
+The Terraform HashiCorp Configuration Language (HCL) script creates a Kubernetes congiguration file in `.kube/config` (see kubeconfig.tf)
 To have direct desktop access using kubectl add this location to your KUBECONFIG, for example:
 
 `export KUBECONFIG=${KUBECONFIG}:/Users/rekins/myTerraform/oke-px-terrafom/.kube/config`
@@ -33,4 +33,5 @@ terraform apply --auto-approve
 - [Portworx](https://portworx.com)
 - [Terraform](https://www.terraform.io) 
 - [Fully automated OKE deployment with Portworx using Terraform](https://ronekins.com/2022/)
+- [Automated OKE deployment with Terraform](https://ronekins.com/2021/01/20/automated-oracle-container-engine-for-kubernetes-oke-build-with-terraform/)
 - [Getting started with Oracle database Kubernetes Operator](https://ronekins.com/2021/11/11/getting-started-with-the-oracle-database-kubernetes-operator-part-1)
