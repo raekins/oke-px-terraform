@@ -1,4 +1,4 @@
-# OKE Portworx Terraform
+# Oracle Kubernetes Engine (OKE) Portworx Terraform
 Automated Oracle Cloud Infrastructure (OCI) Oracle Kubernetes Engine (OKE) with Portworx deployment using Terraform
 
 ## Getting Started
