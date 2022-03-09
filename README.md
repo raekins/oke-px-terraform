@@ -3,7 +3,7 @@ Automated Oracle Cloud Infrastructure (OCI) Oracle Kubernetes Engine (OKE) with 
 
 ## Getting Started
 
-The Terraform script creates a Kubernetes coniguration file in `.kube/config` (see kubeconfig.tf)
+The Terraform script creates a Kubernetes congiguration file in `.kube/config` (see kubeconfig.tf)
 To have direct desktop access using kubectl add this location to your KUBECONFIG, for example:
 
 `export KUBECONFIG=${KUBECONFIG}:/Users/rekins/myTerraform/oke-px-terrafom/.kube/config`
