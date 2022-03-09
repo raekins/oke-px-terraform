@@ -3,6 +3,10 @@ Automated Oracle Kubernetes Engine (OKE) with Portworx deployment using Terrafor
 
 ## Getting Started
 
+The Terraform script creates a Kubernetes coniguration file in .kube/config (see kubeconfig.tf)
+To have direct desktop access using kubectl add this location to your KUBECONFIG, for example: 
+##export KUBECONFIG=${KUBECONFIG}:/Users/rekins/myTerraform/oke-px-terrafom/.kube/config
+
 1. Pull this GitRepo
 2. Copy terraform.tfvars.example to terraform.tfvars
 3. Update terraform.tfvars, providing:
